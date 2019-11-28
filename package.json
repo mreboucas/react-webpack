@@ -1,0 +1,29 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mreboucas"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "author": "Marcelo Rebouças",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
