@@ -10,15 +10,17 @@ module.exports = {
         publicPath: '/static/'
     },
     /**
-     * Configuração do BABEL.
-     * Colquei as entradas no .babelrc
+     * Configuração do BABEL -> fazer o transpile do ES6 para o ES5 para o browser rodar.
+     * Colaquei as entradas no .babelrc
      */
-    module: {
-        loaders:[{
-            teste: /\.js$/,
-            exclude: /node_modules/,
-            include: /src/,
-            loader: 'babel'
-        }]
-    }
+    
+     module: {
+         rules: [{
+             test: /\.js$/,
+             exclude: /node_modules/,
+             include: /src/,
+             loader: 'babel-loader'
+            }]
+        }
+    
 }
