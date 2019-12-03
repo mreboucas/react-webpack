@@ -14,14 +14,12 @@
 
 import Title from './app'
 import React from 'react';
-import ReactDom from 'react-dom'
+//import ReactDom from 'react-dom'
 /*
 Importando apenas o 'render' do react DOM, 
 shorthand notation
 */
-import {render} from 'react-dom'
-
-var ReactDOM = require('react-dom')
+import { render } from 'react-dom'
 
 //ReactDOM.render(
 render(
